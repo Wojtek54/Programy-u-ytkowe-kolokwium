@@ -1,0 +1,119 @@
+
+
+Startup execution:
+  loading initial environment
+
+--> sind(5*%pi/180) + cosd(5*%po/180) + tand(5*%pi/180) + cotd(5*%/180)
+
+Undefined variable: %po
+
+--> sind(5*%pi/180) + cosd(5*%pi/180) + tand(5*%pi/180) + cotd(5*%pi/180)
+ ans  =
+
+   657.56381
+
+--> A = [1,-2,3,0;2,3,0,6;1,-2,7,8;6,3,-1,0]
+ A  = 
+
+   1.  -2.   3.   0.
+   2.   3.   0.   6.
+   1.  -2.   7.   8.
+   6.   3.  -1.   0.
+
+--> B = [2,6,-2,0;3,4,0,7;1,-2,6,8;8,-1,2,0]
+ B  = 
+
+   2.   6.  -2.   0.
+   3.   4.   0.   7.
+   1.  -2.   6.   8.
+   8.  -1.   2.   0.
+
+--> A - B'
+ ans  =
+
+  -1.  -5.   2.  -8.
+  -4.  -1.   2.   7.
+   3.  -2.   1.   6.
+   6.  -4.  -9.   0.
+
+--> sum = 0;
+
+--> 
+
+--> fsf
+
+Undefined variable: fsf
+
+--> a = 28;
+
+--> h = 15;
+
+--> Pc = a^2 + 2*a*h;
+
+--> disp(Pc)
+
+   1624.
+
+--> suma = 0;
+
+--> for i =7:25 do
+  > suma = suma+factorial(i)/4^i - i;
+  > end
+
+--> disp(suma)
+
+   1.643D+10
+
+--> roki = [2010,2012,2014,2016,2018];
+
+--> olsztyn = [142, 123, 132, 123, 144];
+
+--> bialystok = [127, 112, 163, 112, 138];
+
+--> gdffg
+
+Undefined variable: gdffg
+
+--> x = linspace(-10,10,100);
+
+--> y1= 2^(x+4) + 3^x;
+
+--> y2 = (x^3 + 4x)/(2x^2 + 5);
+y2 = (x^3 + 4x)/(2x^2 + 5);
+            ^~^
+Error: syntax error, unexpected identifier, expecting end of file
+
+--> y2 = x^3 + 4x/(2x^2 + 5);
+y2 = x^3 + 4x/(2x^2 + 5);
+           ^~^
+Error: syntax error, unexpected identifier, expecting end of file
+
+--> y2 = (x^3 + 4x)/(2x^2 + 5);
+y2 = (x^3 + 4x)/(2x^2 + 5);
+            ^~^
+Error: syntax error, unexpected identifier, expecting end of file
+
+--> y2 = (x^3 + 4.x)/(2x^2 + 5);
+y2 = (x^3 + 4.x)/(2x^2 + 5);
+            ^~~^
+Error: syntax error, unexpected identifier, expecting end of file
+
+--> y2 = x^3 + 4x/2x^2 + 5;
+y2 = x^3 + 4x/2x^2 + 5;
+           ^~^
+Error: syntax error, unexpected identifier, expecting end of file
+
+--> y2 = x^3 + 4x/(2x^2 + 5);
+y2 = x^3 + 4x/(2x^2 + 5);
+           ^~^
+Error: syntax error, unexpected identifier, expecting end of file
+
+--> y2 = x^3 + 4x:2x^2 + 5;
+y2 = x^3 + 4x:2x^2 + 5;
+           ^~^
+Error: syntax error, unexpected identifier, expecting end of file
+at line     2 of executed string 
+
+save: Cannot open file C:\Users\local\Desktop\Kolokwium2.sce.
+
+  "Environment saved."
